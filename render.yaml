@@ -17,7 +17,7 @@ services:
       - key: ANTHROPIC_API_KEY
         sync: false # Admin must add manually
       - key: BACKEND_CORS_ORIGINS
-        value: '["https://web-m9w0vykcw-invicis-projects.vercel.app", "https://web-rbodklvl0-invicis-projects.vercel.app"]'
+        value: "https://web-m9w0vykcw-invicis-projects.vercel.app, https://web-rbodklvl0-invicis-projects.vercel.app"
 
 databases:
   - name: autonomous-agent-db
