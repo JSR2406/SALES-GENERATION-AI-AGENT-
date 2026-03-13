@@ -1,0 +1,10 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# In development we generally mount the directory, but we install dependencies
+COPY package*.json ./
+RUN npm install
+
+# Command to run vite
+CMD ["npm", "run", "dev", "--", "--host"]
