@@ -6,7 +6,7 @@ services:
     dockerContext: ./apps/api
     plan: starter # Options: free, starter, standard
     region: oregon 
-    healthCheckPath: /api/v1/health # assuming standard router prefix is applied
+    healthCheckPath: /api/health # standard router prefix is not applied to health check
     envVars:
       - key: DATABASE_URL
         fromDatabase:
