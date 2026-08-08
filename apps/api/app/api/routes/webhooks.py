@@ -5,7 +5,7 @@ from enum import Enum
 from langchain_anthropic import ChatAnthropic  # type: ignore
 from langchain_core.messages import HumanMessage  # type: ignore
 from app.core.config import settings  # type: ignore
-from app.api.dependencies.database import get_supabase  # type: ignore
+from app.core.supabase import get_supabase  # type: ignore
 import logging
 from datetime import datetime
 

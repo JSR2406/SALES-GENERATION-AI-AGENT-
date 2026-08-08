@@ -2,6 +2,10 @@
 
 ![React](https://img.shields.io/badge/React-18-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-0.111-blue) ![LangGraph](https://img.shields.io/badge/LangGraph-Production-orange)
 
+## 🚀 Live Production Deployment
+- **Web Application**: [https://web-m9w0vykcw-invicis-projects.vercel.app](https://web-m9w0vykcw-invicis-projects.vercel.app)
+- **API Backend**: [https://autonomous-agent-api.onrender.com](https://autonomous-agent-api.onrender.com)
+
 A modular, production-oriented multi-tenant SaaS for driving autonomous B2B cold outreach leveraging LLMs and Agentic Workflows.
 
 ## Overview

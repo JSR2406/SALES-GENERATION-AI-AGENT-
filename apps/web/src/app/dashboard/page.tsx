@@ -161,3 +161,5 @@ const Dashboard = () => {
     </Shell>
   );
 }
+
+export default Dashboard;

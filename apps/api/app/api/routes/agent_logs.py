@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException  # type: ignore
 from typing import List, Dict, Any
-from app.api.dependencies.database import get_supabase  # type: ignore
+from app.core.supabase import get_supabase  # type: ignore
 import logging
 
 logger = logging.getLogger(__name__)

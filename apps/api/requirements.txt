@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+uvicorn[standard]
 supabase
 pydantic[email]
 email-validator
@@ -7,6 +7,7 @@ pydantic-settings
 langchain
 langgraph
 langchain-anthropic
+langchain-core
 python-multipart
 python-jose[cryptography]
 passlib[bcrypt]
@@ -15,3 +16,5 @@ httpx
 sqlalchemy[asyncio]
 alembic
 asyncpg
+pytest
+pytest-asyncio
